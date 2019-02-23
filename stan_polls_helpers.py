@@ -127,3 +127,5 @@ def read_n_plot(path, niter, title, Y_clinton, Y_trump, dates):
         plt.plot(df_clinton.index, df_clinton.mu, color='blue')
         plt.fill_between(df_clinton.index, df_clinton['lo'], df_clinton['hi'], alpha=0.1, color='gray')
         plt.title(title, fontsize=20)
+
+    return fig
