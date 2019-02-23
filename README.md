@@ -12,3 +12,4 @@ This version makes a couple of modifications:
 ### 1 There's no scraping. The data is already downloaded.
 ### 2 The standard deviation of the random walk is now an argument. If the analyst feels that public sentiment changes more rapidly, then the parameter can be changed. A larger standard deviation of the random walk will make the true value $\mu_t$ more jumpy. 
 
+<img src="Same_prior_sd25.png" alt="My cool logo"/>
